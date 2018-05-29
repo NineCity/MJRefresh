@@ -92,6 +92,7 @@
 		2DB2EA271BECBE6700D58F6A /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA121BECBE6700D58F6A /* UIScrollView+MJExtension.m */; };
 		2DB2EA281BECBE6700D58F6A /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA141BECBE6700D58F6A /* UIScrollView+MJRefresh.m */; };
 		2DB2EA291BECBE6700D58F6A /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */; };
+		A46173AA20BDADC5003406CF /* MJTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A46173A920BDADC5003406CF /* MJTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +209,8 @@
 		2DB2EA141BECBE6700D58F6A /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		2DB2EA151BECBE6700D58F6A /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		2DB2EA161BECBE6700D58F6A /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		A46173A820BDADC5003406CF /* MJTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJTest.h; sourceTree = "<group>"; };
+		A46173A920BDADC5003406CF /* MJTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,6 +345,8 @@
 				2DB2E9EA1BECBE6700D58F6A /* MJRefresh */,
 				2DA7F94E1AA6B51C005627AB /* Classes */,
 				2DA7F9281AA6B4C4005627AB /* Supporting Files */,
+				A46173A820BDADC5003406CF /* MJTest.h */,
+				A46173A920BDADC5003406CF /* MJTest.m */,
 			);
 			path = MJRefreshExample;
 			sourceTree = "<group>";
@@ -676,6 +681,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DB2EA181BECBE6700D58F6A /* MJRefreshBackFooter.m in Sources */,
+				A46173AA20BDADC5003406CF /* MJTest.m in Sources */,
 				2D4698861D0EE6A400CB8025 /* NSBundle+MJRefresh.m in Sources */,
 				2DB2EA1A1BECBE6700D58F6A /* MJRefreshFooter.m in Sources */,
 				2D9BEB0F1BB15F4A00AED473 /* MJDIYHeader.m in Sources */,
